@@ -1,0 +1,16 @@
+h1. DotML to SVG converter
+
+DotML is a XML based syntax for the input language of the 'Dot' graph drawing tool.
+This script converts DotML XML file to SVG.
+
+h2. Usage:
+
+   dot2svg [input xml file] [output folder]
+
+h2. More info
+
+"The Dot Markup Language":http://martin-loetzsch.de/DOTML/
+
+h2. Licence
+
+"DotML licence":http://martin-loetzsch.de/DOTML/licence.html

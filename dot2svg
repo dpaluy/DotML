@@ -1,0 +1,8 @@
+#/bin/bash
+if [ "$1" == "" ]; then
+    echo Convert DotML to SVG
+    echo Usage: dot2svg [input.xml] [output_folder]
+    exit
+fi
+
+./makedot.bash $1 $2
